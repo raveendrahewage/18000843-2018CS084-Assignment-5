@@ -30,7 +30,7 @@ object Q3
 
 		var acc1=new account("S123",1000,25000);
 		var acc2=new account("S124",1001,10000);
-		val bank:List[account]=List(acc1,acc2,acc3);
+		val bank:List[account]=List(acc1,acc2);
 		
 		val x=find(1001,bank);
 		acc1.transfer(x,10000);
